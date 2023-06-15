@@ -1,0 +1,194 @@
+#cabecalho {
+    background: linear-gradient(219deg, #581379 0%, #EAE2EA 100%);
+    line-height: 7;
+}
+
+#comenta {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#rodape {
+    background-color: blueviolet;
+
+}
+
+#contato-info {
+    background-color: blueviolet;
+}
+
+.conteudo {
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.conteudo_imagem {
+    width: 30vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+a:hover {
+    color: rgb(255, 98, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.0em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 140px;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+}
+
+.text-container {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+}
+
+.texto_container {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.telefone-info {
+    text-align: right;
+    letter-spacing: 5px;
+}
+
+.form-controle {
+    text-align: left;
+    line-height: 2;
+    margin: 10px;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+
+}
+
+.btn {
+    border: 15px groove #7710DA;
+    margin: 10px;
+    color: #000;
+}
+
+.btn_enviar {
+    border: 15px groove #7710DA;
+    margin: 10px;
+    color: #000;
+}
+
+.texto_preto {
+    color: #000;
+    text-align: center;
+}
+
+.texto_preto:hover {
+    color: #000;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, #2B1042 0%, #C0A9C7 7%);
+
+}
+
+#caixa {
+    width: 90vw;
+    padding: 20px;
+    margin: 0 auto;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 5px 5px 5px #000;
+    background: #fff;
+}
+
+.campos {
+    font-size: 15px;
+    height: 30px;
+}
+
+*/
+/* ************************************** 
+Walter 
+
+h2 {
+    font-family: arial;
+    color: #f00;
+}
+
+section {
+    background-color: #ccc;
+}
+
+aside {
+    background-color: #999;
+
+}
+
+article {
+    background-color: #555;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+video {
+    border: 2px solid #000
+}
+
+img {
+    border: 2px dotted #00f;
+    height: 50px;
+    width: 50px;
+}
+
+form {
+    margin: 50px;
+}
+
+input {
+    height: 50px;
+}
+
+footer {
+    background: pink;
+}
+*/
