@@ -1,5 +1,5 @@
 #cabecalho {
-    background: linear-gradient(219deg, #581379 0%, #EAE2EA 100%);
+    background: linear-gradient(219deg, #581379 0%, #c48ec4 100%);
     line-height: 8;
 }
 
@@ -64,7 +64,7 @@ p {
 }
 
 a {
-    color: white;
+    color: rgb(249, 252, 251);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.0em;
     text-decoration: none;
