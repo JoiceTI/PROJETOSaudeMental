@@ -1,6 +1,10 @@
 #cabecalho {
     background: linear-gradient(219deg, #581379 0%, #EAE2EA 100%);
-    line-height: 7;
+    line-height: 8;
+}
+
+#inicio {
+    margin-top: 10px;
 }
 
 #comenta {
@@ -11,6 +15,7 @@
 
 #rodape {
     background-color: blueviolet;
+    margin-top: 20px;
 
 }
 
@@ -22,6 +27,10 @@
     text-align: center;
     width: 80vw;
     margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
 }
 
 .conteudo_imagem {
@@ -72,11 +81,11 @@ a:hover {
 }
 
 .text-container {
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 80px;
+    height: 100px;
 }
 
 .texto_container {
@@ -84,6 +93,7 @@ a:hover {
     font-size: 1.5em;
     font-weight: bolder;
     text-transform: capitalize;
+
 }
 
 .telefone-info {
@@ -145,50 +155,3 @@ body {
     font-size: 15px;
     height: 30px;
 }
-
-*/
-/* ************************************** 
-Walter 
-
-h2 {
-    font-family: arial;
-    color: #f00;
-}
-
-section {
-    background-color: #ccc;
-}
-
-aside {
-    background-color: #999;
-
-}
-
-article {
-    background-color: #555;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-video {
-    border: 2px solid #000
-}
-
-img {
-    border: 2px dotted #00f;
-    height: 50px;
-    width: 50px;
-}
-
-form {
-    margin: 50px;
-}
-
-input {
-    height: 50px;
-}
-
-footer {
-    background: pink;
-}
-*/
