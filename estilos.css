@@ -1,69 +1,39 @@
-#cabecalho {
+body{
+    background: linear-gradient(90deg, #2B1042 0%, #C0A9C7 7%);
+    
+}
+ 
+#caixa {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #000;
+    background: #fff;
+
+}
+
+header{
     background: linear-gradient(219deg, #581379 0%, #c48ec4 100%);
-    line-height: 8;
-}
-
-#inicio {
-    margin-top: 10px;
-}
-
-#secao1 {
-    font-size: 15px;
-    letter-spacing: 20px;
-    width: 80vw;
-}
-
-#secao1 {
-    font-size: 15px;
-}
-
-#secao1 {
-    font-size: 15px;
-}
-
-#secao1 {
-    font-size: 15px;
-}
-
-#comenta {
-    color: black;
     text-align: center;
-    font-size: 1.5em;
+    padding:0px;
+    border-radius:15px;
+    overflow: hidden;
+    
+}
+nav {
+    text-align:center;
 }
 
-#rodape {
-    background-color: blueviolet;
-    margin-top: 20px;
-
+nav > a {
+    color:#f00;
 }
 
-#contato-info {
-    background-color: blueviolet;
-}
-
-.conteudo {
-    text-align: center;
-    width: 80vw;
-    margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
-}
-
-.conteudo_imagem {
-    width: 30vw;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-p {
-    text-align: justify;
-}
-
-a {
+nav > a{
     color: rgb(249, 252, 251);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.0em;
@@ -72,7 +42,7 @@ a {
     margin-left: 0.5em;
 }
 
-a:hover {
+nav >a:hover {
     color: rgb(255, 98, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.0em;
@@ -81,95 +51,99 @@ a:hover {
     margin-left: 0.5em;
     text-align: center;
 }
+header >img {
+    width: 33.33%;
+    max-width: 50%;
+    max-height:154px;
+    min-height:154px;
+    
+}
 
-.center {
-    justify-content: center;
-    align-items: center;
+h1 { 
+    text-align:center;
+}
+
+
+article{
     text-align: center;
-    height: 140px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
-.container {
+iframe { 
+    height:300px;
+    width:300px;
+}
+article >p{
+    text-align:center;
+}
+
+
+aside{
+    margin-top:50px;
+    background: linear-gradient(219deg, #581379 0%, #c48ec4 100%);
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    flex-direction: column;
+    padding:0px;
+    border-radius:15px;
+    overflow: hidden;
+}
+aside >div{
+    background: linear-gradient(180deg, #581379 0%, #c48ec4 100%);
+    font-size:2em;
+    font-weight:bold;
+    color:#fff;
+     
 }
 
-.text-container {
-    margin-top: 5px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100px;
-}
-
-.texto_container {
-    text-align: left;
-    font-size: 1.5em;
-    font-weight: bolder;
-    text-transform: capitalize;
+aside > form {
+    margin:20px;
+    text-align:center;
+    font-weight:bold;
 
 }
-
-.telefone-info {
-    text-align: right;
-    letter-spacing: 5px;
+aside >form >input {
+    height:30px;
+    border-radius:10px;
+    
+    box-sizing: content-box;
+    color:#000;
+    font-size: 20px;
+    text-align:center;
+}
+aside > span {
+    color:#ff0;
 }
 
-.form-controle {
-    text-align: left;
-    line-height: 2;
-    margin: 10px;
+footer{
+    margin-top:10px;
+    text-align:center;
 }
 
-.item {
-    flex: 1;
-    margin: 10px;
 
+input:hover{
+    box-shadow: 0px 0px 10px 1px #ffffff;
+}
+
+.btn:hover{
+    background:  #d4a0e4 ;
+    box-shadow: 0px 0px 10px 1px #a95cd9;
 }
 
 .btn {
-    border: 15px groove #7710DA;
-    margin: 10px;
-    color: #000;
-}
-
-.btn_enviar {
-    border: 15px groove #7710DA;
-    margin: 10px;
-    color: #000;
-}
-
-.texto_preto {
-    color: #000;
-    text-align: center;
-}
-
-.texto_preto:hover {
-    color: #000;
-    text-align: center;
-}
-
-body {
-    background: linear-gradient(90deg, #2B1042 0%, #C0A9C7 7%);
-
-}
-
-#caixa {
-    width: 90vw;
-    padding: 20px;
-    margin: 0 auto;
-    border-color: #000;
-    border-width: 1px;
-    border-style: solid;
-    box-shadow: 5px 5px 5px #000;
-    background: #fff;
-}
-
-.campos {
-    font-size: 15px;
-    height: 30px;
-}
+        border: 3px groove #7710DA;
+        padding:5px;
+        margin: 10px;
+        color: #000;
+        width:60px;
+        height:30px;
+        border-radius:7px;
+        background:  #C0A9C7 ;
+        
+        text-decoration: none;
+    }
+    
+    .espacado{
+        
+        text-align: right;
+        
+    }
