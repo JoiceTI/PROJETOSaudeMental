@@ -17,6 +17,7 @@ body{
 
 }
 
+
 header{
     background: linear-gradient(219deg, #581379 0%, #c48ec4 100%);
     text-align: center;
@@ -62,6 +63,18 @@ header >img {
 h1 { 
     text-align:center;
 }
+
+.hide{
+    display: none;
+}
+
+.vermelho{
+    color: #f00;
+}
+
+/* .azul{
+    color: #ff0;
+} */
 
 
 article{

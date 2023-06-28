@@ -8,6 +8,8 @@
     <title>Saúde Mental</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="scripts.js" defer></script>
 </head>
 
 
@@ -31,9 +33,12 @@
             </nav>
         </header>
         <section>
-            <h1>
+            <h1 class="vermelho">
                 SAÚDE MENTAL E SUA IMPORTÂNCIA PARA O CORAÇÃO
             </h1>
+            <button id="esconde_titulo">
+                esconder titulo
+            </button>
 
             <article id="secao1">
 
@@ -168,7 +173,7 @@
 
                 <label for="nome">Nome
                 </label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
 
                 <label for="telefone">Telefone
                 </label>
